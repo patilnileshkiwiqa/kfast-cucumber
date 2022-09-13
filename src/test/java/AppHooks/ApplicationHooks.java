@@ -47,7 +47,6 @@ public class ApplicationHooks {
 
 		driverFactory = new DriverFactory();
 		driver = driverFactory.init_driver(browserName);
-
 	}
 
 	@After(order = 0)
