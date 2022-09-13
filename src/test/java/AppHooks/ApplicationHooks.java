@@ -37,8 +37,6 @@ public class ApplicationHooks {
 		
 		String browserName = "";
 		
-		System.out.println(">>>>>>> executionFrom"+executionFrom);
-		
 		if (executionFrom.equalsIgnoreCase("Jenkins")) {
 
 			//browser selection from the Jenkins
