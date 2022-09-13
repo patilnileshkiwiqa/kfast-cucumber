@@ -2,3 +2,4 @@ AppHooks\ApplicationHooks.class
 testrunners\MyTestRunner.class
 stepdefinations\AccountsPageSteps.class
 stepdefinations\LoginPageSteps.class
+stepdefinations\HomePageSteps.class

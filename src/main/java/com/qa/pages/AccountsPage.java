@@ -18,14 +18,6 @@ public class AccountsPage {
 		this.driver = driver;
 	}
 	
-	public String getAccountsPageTitle() {
-		return driver.getTitle();
-	}
-
-	public int getAccountsSectionCount() {
-		return driver.findElements(accountSections).size();
-	}
-
 	public List<String> getAccountsSectionsList() {
 
 		List<String> accountsList = new ArrayList<>();
@@ -39,6 +31,10 @@ public class AccountsPage {
 
 		return accountsList;
 
+	}
+
+	public String getAccountsPageTitle() {
+		return driver.getTitle();
 	}
 
 }

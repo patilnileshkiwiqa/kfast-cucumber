@@ -3,15 +3,16 @@ package com.qa.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.qa.util.Common;
+
 public class LoginPage {
 
     private WebDriver driver;
 
     // 1. By Locators: OR
-    private By emailId = By.id("email");
-    private By password = By.id("passwd");
-    private By signInButton = By.id("SubmitLogin");
-    private By forgotPwdLink = By.linkText("Forgot your password?11");
+    private By emailId = By.id("user-name");
+    private By password = By.id("password");
+    private By signInButton = By.id("login-button");
 
     // 2. Constructor of the page class:
     public LoginPage(WebDriver driver) {
@@ -22,10 +23,6 @@ public class LoginPage {
 
     public String getLoginPageTitle() {
         return driver.getTitle();
-    }
-
-    public boolean isForgotPwdLinkExist() {
-        return driver.findElement(forgotPwdLink).isDisplayed();
     }
 
     public void enterUserName(String username) {
@@ -45,6 +42,7 @@ public class LoginPage {
         driver.findElement(emailId).sendKeys(un);
         driver.findElement(password).sendKeys(pwd);
         driver.findElement(signInButton).click();
+        Common.pause(3);
         return new AccountsPage(driver);
     }
 

@@ -3,7 +3,9 @@ com\qa\util\ExcelReader.class
 com\qa\factory\DriverFactory.class
 com\qa\util\ConfigReader.class
 com\qa\util\ElementUtil.class
+com\qa\pages\HomePage.class
 com\qa\util\Common.class
+com\qa\util\TestData.class
 com\qa\pages\AccountsPage.class
 com\qa\util\Constants.class
 com\qa\util\Common$1.class
