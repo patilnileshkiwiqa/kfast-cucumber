@@ -38,8 +38,7 @@ public class ApplicationHooks {
 		String browserName = "";
 		
 		if (executionFrom.equalsIgnoreCase("Jenkins")) {
-
-			//browser selection from the Jenkins
+			//browser selection from the Jenkins //MVN Parameter
 			browserName = System.getProperty("browser");
 		}else {
 			browserName = prop.getProperty("browser");

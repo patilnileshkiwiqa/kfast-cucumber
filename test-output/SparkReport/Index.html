@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">K-Fast Cucumber Project Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Sep 13, 2022 06:33:13 PM</span></a>
+<a href="#"><span class="badge badge-primary">Sep 15, 2022 12:12:47 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,13 +66,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Sep 13, 2022 06:33:13 PM</h3>
+<h3>Sep 15, 2022 12:12:47 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Sep 13, 2022 06:33:22 PM</h3>
+<h3>Sep 15, 2022 12:13:00 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -162,7 +162,7 @@
 </div></div>
 <script>
 var timeline = {
-"Login page feature":6.681,"Home Page Feature":8.572,"Account Page Feature":7.24
+"Account Page Feature":6.223,"Home Page Feature":8.471,"Login page feature":6.577
 };
 </script>
 <div class="row">
@@ -172,7 +172,7 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@accounts</td>
+<td>@temp</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
@@ -180,7 +180,7 @@ var timeline = {
 <td>100%</td>
 </tr>
 <tr>
-<td>@temp</td>
+<td>@accounts</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
@@ -258,7 +258,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@accounts</a><a class="dropdown-item" href="#">@temp</a>
+<a class="dropdown-item" href="#">@temp</a><a class="dropdown-item" href="#">@accounts</a>
 </ul>
 </li>
 </ul>
@@ -269,9 +269,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Login page feature</p>
+            <p class="name">Account Page Feature</p>
             <p class="text-sm">
-              <span>18:33:14 PM</span> / <span>00:00:06:681</span>
+              <span>12:12:48 PM</span> / <span>00:00:06:223</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -279,10 +279,10 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Login page feature</h5>
-<span class='badge badge-success'>09.13.2022 18:33:14</span>
-<span class='badge badge-danger'>09.13.2022 18:33:20</span>
-<span class='badge badge-default'>00:00:06:681</span>
+<h5 class="test-status text-pass">Account Page Feature</h5>
+<span class='badge badge-success'>09.15.2022 12:12:48</span>
+<span class='badge badge-danger'>09.15.2022 12:12:54</span>
+<span class='badge badge-default'>00:00:06:223</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -292,7 +292,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Forgot Password link</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Accounts page title</div>
       </div>
     </div>
         <div class="collapse">
@@ -304,8 +304,18 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinations.LoginPageSteps.user_is_on_login_page()">
-                <span>Given user is on login page</span>
+              <div class="step pass-bg" title="stepdefinations.HomePageSteps.user_is_on_home_page()">
+                <span>Given user is on Home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinations.AccountsPageSteps.user_gets_the_title_of_the_page()">
+                <span>When user gets the title of the page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinations.AccountsPageSteps.page_title_should_be_something(java.lang.String)">
+                <span>Then page title should be "My account - My Store"</span>
       <div>
       </div>
               </div>
@@ -322,7 +332,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">Home Page Feature</p>
             <p class="text-sm">
-              <span>18:33:14 PM</span> / <span>00:00:08:572</span>
+              <span>12:12:48 PM</span> / <span>00:00:08:471</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -331,9 +341,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Home Page Feature</h5>
-<span class='badge badge-success'>09.13.2022 18:33:14</span>
-<span class='badge badge-danger'>09.13.2022 18:33:22</span>
-<span class='badge badge-default'>00:00:08:572</span>
+<span class='badge badge-success'>09.15.2022 12:12:48</span>
+<span class='badge badge-danger'>09.15.2022 12:12:56</span>
+<span class='badge badge-default'>00:00:08:471</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -371,14 +381,14 @@ eventsCount: 5,
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="6"
+        <li class="test-item"  status="pass" test-id="18"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Account Page Feature</p>
+            <p class="name">Login page feature</p>
             <p class="text-sm">
-              <span>18:33:14 PM</span> / <span>00:00:07:240</span>
+              <span>12:12:54 PM</span> / <span>00:00:06:577</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -386,11 +396,11 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Account Page Feature</h5>
-<span class='badge badge-success'>09.13.2022 18:33:14</span>
-<span class='badge badge-danger'>09.13.2022 18:33:21</span>
-<span class='badge badge-default'>00:00:07:240</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<h5 class="test-status text-pass">Login page feature</h5>
+<span class='badge badge-success'>09.15.2022 12:12:54</span>
+<span class='badge badge-danger'>09.15.2022 12:13:00</span>
+<span class='badge badge-default'>00:00:06:577</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
 </div>
@@ -399,7 +409,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Accounts page title</div>
+        <div class="node" id="19"><span class="badge log pass-bg mr-2">Pass</span>Forgot Password link</div>
       </div>
     </div>
         <div class="collapse">
@@ -411,18 +421,8 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinations.HomePageSteps.user_is_on_home_page()">
-                <span>Given user is on Home page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinations.AccountsPageSteps.user_gets_the_title_of_the_page()">
-                <span>When user gets the title of the page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinations.AccountsPageSteps.page_title_should_be_something(java.lang.String)">
-                <span>Then page title should be "My account - My Store"</span>
+              <div class="step pass-bg" title="stepdefinations.LoginPageSteps.user_is_on_login_page()">
+                <span>Given user is on login page</span>
       <div>
       </div>
               </div>
@@ -454,42 +454,6 @@ eventsCount: 5,
 <span class="meta">
 <span class='badge log pass-bg'>1</span>
 </span>
-<p class="name">@accounts</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@accounts</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>18:33:14 PM</td>
-<td>
-<a href="#" class="linked" test-id='6' id='7'>Accounts page title</a>
-<div class="">
-<span class="badge badge-default">Account Page Feature.Accounts page title</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-</span>
 <p class="name">@temp</p>
 <p class="duration text-sm">1 tests</p>
 </div>
@@ -509,11 +473,47 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>18:33:14 PM</td>
+<td>12:12:48 PM</td>
 <td>
 <a href="#" class="linked" test-id='3' id='4'>Home page title</a>
 <div class="">
 <span class="badge badge-default">Home Page Feature.Home page title</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@accounts</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@accounts</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:12:48 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Accounts page title</a>
+<div class="">
+<span class="badge badge-default">Account Page Feature.Accounts page title</span>
 </div>
 </td>
 </tr>

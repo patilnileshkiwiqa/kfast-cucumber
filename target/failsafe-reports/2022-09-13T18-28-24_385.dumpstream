@@ -1,4 +1,0 @@
-# Created at 2022-09-13T18:28:24.770
-Boot Manifest-JAR contains absolute paths in classpath 'F:\Working Framework Live\kfast-cucumber\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-
