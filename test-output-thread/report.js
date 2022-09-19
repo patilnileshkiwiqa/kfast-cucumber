@@ -1,36 +1,36 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "c75150cd-653c-4028-a841-b67f679670ac",
+    "id": "630ef981-1261-435e-b962-5052a0db4e6a",
     "feature": "Login page feature",
     "scenario": "Forgot Password link",
-    "start": 1663224174319,
-    "group": 14,
+    "start": 1663586067302,
+    "group": 16,
     "content": "",
     "tags": "",
-    "end": 1663224180897,
+    "end": 1663586074022,
     "className": "passed"
   },
   {
-    "id": "b261c9f3-d959-41ef-881c-9b02950ebb39",
+    "id": "fa722224-1863-4647-adf6-113a809cf7ab",
     "feature": "Home Page Feature",
     "scenario": "Home page title",
-    "start": 1663224168046,
+    "start": 1663586067354,
     "group": 15,
     "content": "",
     "tags": "@temp,",
-    "end": 1663224176565,
+    "end": 1663586079414,
     "className": "passed"
   },
   {
-    "id": "d99598e4-673a-438f-b05c-e6d77e5f0685",
+    "id": "6b72dd54-c0b8-4058-89e7-9a08f57b40db",
     "feature": "Account Page Feature",
     "scenario": "Accounts page title",
-    "start": 1663224168045,
+    "start": 1663586067353,
     "group": 14,
     "content": "",
     "tags": "@accounts,",
-    "end": 1663224174309,
+    "end": 1663586074500,
     "className": "passed"
   }
 ]);
@@ -42,6 +42,10 @@ CucumberHTML.timelineGroups.pushArray([
   {
     "id": 15,
     "content": "Thread[pool-1-thread-2,5,main]"
+  },
+  {
+    "id": 16,
+    "content": "Thread[pool-1-thread-3,5,main]"
   }
 ]);
 });

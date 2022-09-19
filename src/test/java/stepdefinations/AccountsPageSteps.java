@@ -28,7 +28,7 @@ public class AccountsPageSteps {
 
 		String url = TestData.getValueFromConfig("src\\test\\resources\\config\\config.properties", "url");
 		DriverFactory.getDriver()
-		.get("https://www.saucedemo.com/");
+		.get(url);
 		accountsPage = loginPage.doLogin(userName, password);
 	}
 
