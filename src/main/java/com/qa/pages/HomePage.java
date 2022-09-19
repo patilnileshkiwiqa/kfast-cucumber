@@ -25,7 +25,7 @@ public class HomePage{
 
 	public void homePageUrl() {
 		//		driver.findElement(By.xpath("//div[normalize-space()='Sauce Labs Backpack']")).click();
-		searchBoxHome.click();
+		Common.clickOn(driver, searchBoxHome);
 	}
 
 
