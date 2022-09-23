@@ -52,8 +52,8 @@ First time run use `mvn verify -Dbrowser=chrome -DthreadCount=2`
 - Goto project directory.
 - Set parameters in config.properties ( Location: \src\test\resources\config )
 > executionFrom=Local
-browser=chrome
-url=https://www.saucedemo.com/
+> browser=chrome
+> url=https://www.saucedemo.com/
 
 - Select any feature file and right click and run it from there.
 
